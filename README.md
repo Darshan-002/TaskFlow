@@ -1,44 +1,26 @@
-# 🚀 TaskFlow – Task Management App
+# TaskFlow ✅
 
-TaskFlow is a full-stack web application that helps users manage their tasks effectively with features like task creation, status toggling (Pending ✅ → Done ✅), editing, and deleting tasks.
+**TaskFlow** is a full-stack task management application built with:
 
----
+- 🖥️ Frontend: React + Vite + Tailwind CSS  
+- ⚙️ Backend: Spring Boot (Java)  
+- 🗃️ Database: MongoDB
 
-## 🧠 Purpose of TaskFlow
-
-The purpose of TaskFlow is to help users:
-
-- Create and organize daily tasks 📋
-- Set deadlines and priorities 🕒
-- Track progress (Pending ↔ Done) ✅
-- Edit or delete tasks anytime ✏️❌
-- Store tasks persistently using MongoDB 💾
-
-It’s perfect for personal productivity, students, and project managers.
+This app helps users add, update, delete, and manage tasks efficiently with a clean UI and fast performance.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Live Demo
 
-| Layer     | Technology Used                       |
-|-----------|----------------------------------------|
-| Frontend  | React.js, Tailwind CSS, Axios, Vite    |
-| Backend   | Spring Boot (Java), Spring Web, MongoDB |
-| Database  | MongoDB (Local)                        |
+🔗 **Check it out here**:  (https://Darshan-002.github.io/TaskFlow)
 
 ---
 
-## 🧩 Features
+## 📁 Folder Structure
 
-✅ Create New Task  
-✅ View All Tasks  
-✅ Mark Task as Done / Pending  
-✅ Edit Task Title & Description  
-✅ Delete Task  
-✅ Responsive Design  
-✅ Professional UI/UX  
-✅ MongoDB Integration
-
----
- 
-
+```bash
+taskflow-project/
+│
+├── taskflow-frontend/     # React + Vite frontend
+├── taskflow-backend/      # Spring Boot backend
+└── README.md
